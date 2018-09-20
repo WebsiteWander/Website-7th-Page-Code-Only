@@ -1,0 +1,76 @@
+/* SEVENTH PAGE OF WEBSITE */
+
+
+
+/* ----------------------------------------------------------------- */
+/* SIGN UP */
+/* ----------------------------------------------------------------- */
+
+
+
+.section-plans {
+    background-color: #f4f4f4;        /* That little grey background */
+}
+
+
+.plan-box {                           /* Formatting the Plan Box */
+    background-color: #fff;           /* Makes this Plan Box white, so it looks different from the rest of the section */
+    border-radius: 5px;               /* Rounds the corners of the border */
+    width: 90%;                       /* Makes the white space from smaller: 90 percent of it */
+    margin-left: 5%;                  /* Moves all the white boxes to the right *
+                                      /* Width = 90%. 100% - 90%= 10%. 5% is half of tat remaining 10% */
+    
+    box-shadow: 0 2px 2px #efefef;    /* (X axis, Y Axis, Blur, Color) */
+}
+
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+.plan-box div:last-child {     /* Targets only the last child in plan-box div */
+    text-align: center;        /* Aligns the text button to the center */
+    border: 0;
+}
+
+
+
+.plan-price {
+    font-size: 300%;        /* Decrease font-weight if you increase font-size */
+    margin-bottom: 10px;
+    font-weight: 100;       /* Decrease font-weight if you increase font-size */
+    color: #e67e22;         /* Make this Orange to make this element stand out more */
+}
+
+
+.plan-price span {
+    font-size: 30%;         /* 30% of the 300% */
+    font-weight: 300;       /* In herits the font-weight of its parent (.plan-price) */
+}
+
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+
+.plan-box ul {
+    list-style: none;      /* Gets rid of the dots */
+}
+
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
